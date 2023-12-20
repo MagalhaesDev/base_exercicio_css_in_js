@@ -1,3 +1,5 @@
+import styled from 'styled-components'
+
 export const VagasGrid = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -8,5 +10,4 @@ export const VagasGrid = styled.ul`
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
-`;
-
+`

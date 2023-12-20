@@ -11,7 +11,7 @@ type Props = {
 }
 
 const Vaga = (props: Props) => (
-  <VagaWrapper >
+  <VagaWrapper>
     <VagaTitulo>{props.titulo}</VagaTitulo>
     <ul>
       <li>Localizacao: {props.localizacao}</li>
@@ -22,9 +22,7 @@ const Vaga = (props: Props) => (
       </li>
       <li>Requisitos: {props.requisitos.join(', ')}</li>
     </ul>
-    <VagaLink href="#">
-      Ver detalhes e candidatar-se
-    </VagaLink>
+    <VagaLink href="#">Ver detalhes e candidatar-se</VagaLink>
   </VagaWrapper>
 )
 

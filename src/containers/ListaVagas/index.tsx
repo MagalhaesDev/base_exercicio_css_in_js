@@ -89,11 +89,11 @@ const vagas = [
 ]
 
 const ListaVagas = () => {
-  const [filtro, setFiltro] = useState<string>('');
+  const [filtro, setFiltro] = useState<string>('')
 
   const vagasFiltradas = vagas.filter(
     (x) => x.titulo.toLocaleLowerCase().search(filtro) >= 0
-  );
+  )
 
   return (
     <div>
@@ -113,7 +113,7 @@ const ListaVagas = () => {
         ))}
       </VagasGrid>
     </div>
-  );
-};
+  )
+}
 
-export default ListaVagas;
+export default ListaVagas

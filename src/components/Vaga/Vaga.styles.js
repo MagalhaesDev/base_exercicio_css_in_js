@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const VagaWrapper = styled.li`
   border: 1px solid var(--cor-principal);
@@ -12,12 +12,12 @@ export const VagaWrapper = styled.li`
     background-color: var(--cor-principal);
     color: var(--cor-secundaria);
   }
-`;
+`
 
 export const VagaTitulo = styled.h3`
   font-weight: bold;
   margin-bottom: 16px;
-`;
+`
 
 export const VagaLink = styled.a`
   border: 1px solid var(--cor-secundaria);
@@ -41,5 +41,4 @@ export const VagaLink = styled.a`
     background-color: var(--cor-secundaria);
     color: var(--cor-principal);
   }
-`;
-
+`

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const FormWrapper = styled.form`
   height: 360px;
@@ -38,5 +38,4 @@ export const FormWrapper = styled.form`
       font-size: 32px;
     }
   }
-`;
-
+`
